@@ -77,7 +77,7 @@
     <triggers>
         <trigger>
             <expression>{Template App FTP Service:net.tcp.service[ftp].max(#3)}=0</expression>
-            <name>FTP service is down on {HOST.NAME1}</name>
+            <name>FTP service is down on {HOST.NAME}</name>
             <url/>
             <status>0</status>
             <priority>3</priority>
