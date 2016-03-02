@@ -32,6 +32,6 @@ curl -i -k -u $LOG:$PASS -X POST -H 'Content-Type: application/json' -d '{
             }
            ]
             },
-    "auth": "1613e658c2b15feda6d4360da0e3f5e8",
+    "auth": "93573a1afa67028fd0b074ca9e00df1f",
     "id": 1
 }' http://$server/zabbix/api_jsonrpc.php
